@@ -4,8 +4,8 @@
 3. MariaDb
 4. PhpMyAdmin
 
-Для одного домена с установленным Wordpress
+Для одного домена с установленным OpenCart
 User: admin
-Password: kYkn@txTeknO(bE5qe
+Password: 03102020
 
 Сохранение базы данных при остановке контейнеров предусмотрено. 

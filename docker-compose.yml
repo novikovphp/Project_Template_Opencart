@@ -14,7 +14,8 @@ services:
   nginx:
     build: ./dockerfiles/nginx
     ports:
-      - 80:80
+      - "80:80"
+      - "22:22"
     volumes:
       - './www:/var/www/html'
       - './file/docker/nginx/conf.d:/etc/nginx/conf.d'

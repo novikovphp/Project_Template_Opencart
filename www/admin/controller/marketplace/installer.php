@@ -365,7 +365,7 @@ class Installer extends \Opencart\System\Engine\Controller {
 						} else {
 							$path_new = $path_new . '/' . $directory;
 						}
-
+echo $base . $path_new . '/';
 						// To fix storage location
 						if (!is_dir($base . $path_new . '/') && mkdir($base . $path_new . '/', 0777)) {
 							$this->model_setting_extension->addPath($extension_install_id, $prefix . $path_new);
